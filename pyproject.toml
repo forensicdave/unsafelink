@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unsafelink"
+version = "1.0.0"
+description = "Decode Microsoft Outlook SafeLinks URLs to reveal the original destination"
+readme = "README-unsafelink.md"
+license = "MIT"
+requires-python = ">=3.6"
+authors = [
+    { name = "Dave Matthews" },
+]
+keywords = ["outlook", "safelinks", "microsoft", "email", "url", "decoder", "security"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+unsafelink = "unsafelink:main"
+
+[project.urls]
+Homepage = "https://github.com/forensicdave/unsafelink"
+Issues = "https://github.com/forensicdave/unsafelink/issues"
