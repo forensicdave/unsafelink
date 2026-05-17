@@ -98,6 +98,9 @@ It can protect:
 
 (In Microsoft Defender XDR / Microsoft 365 Defender Advanced Hunting, Safe Links click activity is primarily exposed through the UrlClickEvents table.)
 
+Great Microsoft reference on this: https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-urlclickevents-table
+
+and some hunting ideas/usage at https://www.michalos.net/2025/03/09/effective-strategies-for-fighting-redirectors-with-urlclickevents-urlchain-devicenetworkevents/
 
 ### Downsides
 
